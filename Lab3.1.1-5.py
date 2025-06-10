@@ -3,10 +3,10 @@
 # 1) Третий фрукт из списка (например: "Третий фрукт: яблоко")
 # 2) Общее количество фруктов в списке (например: "Всего фруктов: 5")
 #
-# fruits = input("Введите 5 любимых фруктов:\n")
-# fruits = fruits.split()
-# print("Третий фрукт: " + fruits[2])
-# print("Всего фруктов: " + str(len(fruits)))
+fruits = input("Введите 5 любимых фруктов:\n")
+fruits = fruits.split()
+print("Третий фрукт: " + fruits[2])
+print("Всего фруктов: " + str(len(fruits)))
 
 ####################################################################################################
 
@@ -17,18 +17,18 @@
 #   Новый список без дубликатов
 #   Количество удаленных дубликатов
 #
-# numbers = [1, 2, 3, 2, 1, 1, 1, 4, 5, 4, 6, 7, 8, 7, 9]
-# numbers_check = 0
-# numbers_new = numbers.copy()
-#
-# for i in numbers_new:
-#     if numbers_new.count(i) > 1:
-#         numbers_check += 1
-#         numbers_new.remove(i)
-#
-# print(numbers)
-# print(numbers_new)
-# print(numbers_check)
+numbers = [1, 2, 3, 2, 1, 1, 1, 4, 5, 4, 6, 7, 8, 7, 9]
+numbers_check = 0
+numbers_new = numbers.copy()
+
+for i in numbers_new:
+    if numbers_new.count(i) > 1:
+        numbers_check += 1
+        numbers_new.remove(i)
+
+print(numbers)
+print(numbers_new)
+print(numbers_check)
 
 ####################################################################################################
 
@@ -39,13 +39,13 @@
 #   Второй список
 #   Объединенный отсортированный список
 #
-# list1 = [3, 7, 1, 9, 5]
-# list2 = [8, 2, 6, 4, 10]
-# list3 = list1 + list2
-# list3.sort()
-# print(list1)
-# print(list2)
-# print(list3)
+list1 = [3, 7, 1, 9, 5]
+list2 = [8, 2, 6, 4, 10]
+list3 = list1 + list2
+list3.sort()
+print(list1)
+print(list2)
+print(list3)
 
 
 ####################################################################################################
